@@ -1,0 +1,92 @@
+ @font-face {
+    font-family: 'playfair_displayregular';
+    src: url('playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('playfairdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+@font-face {
+    font-family: 'cac_champagneregular';
+    src: url('cac_champagne-webfont.woff2') format('woff2'),
+         url('cac_champagne-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color: burlywood;
+        background-color:#999999;
+}
+
+
+h1 {
+    font-family: 'playfair_displayregular';
+    color: aquamarine;
+    background-color: rgb (67,208,232)
+    opacity: 0.5;
+}
+
+p {
+    font-family: 'cac_champagneregular' ;
+    color: darkcyan;
+}
+
+
+p1 {
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    width: 450px;
+}
+
+p2 {
+    position: relative;
+    top: 10px;
+    left: 100px;
+
+}
+
+p3 {
+    position: static;
+    top: 0px;
+    padding: 10px;
+    margin: 3px;
+    width: 100%;
+    background-color: #494949;
+}
+
+p4 {
+    float: right;
+    width: 275px;
+    font-size: 130%;
+    font-style: italic;
+    font-family: 'playfair_displayregular';
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #252525;
+    border-bottom: 1px solid #252525;
+
+
+}
+#header {
+    padding:28px;
+    border: 1px black solid;
+    margin: 30px;
+    background-color: cornflowerblue;
+
+}
+
+#bodycopy {
+    padding: 5px;
+    border: 2px #454545 hsl(0,0%,78%) solid ;
+    margin: 10px;
+    background-color: darkgray;
+}
+
+.orange{
+    color: orange
+}
