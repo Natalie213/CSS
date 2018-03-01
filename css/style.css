@@ -46,7 +46,7 @@ p1 {
 p2 {
     position: relative;
     top: 10px;
-    left: 100px;
+   left: 100px;
 
 }
 
@@ -70,8 +70,26 @@ p4 {
     border-top: 1px solid #252525;
     border-bottom: 1px solid #252525;
 
-
 }
+
+p5 {
+    position: static;
+    top: 0px;
+    padding: 10px;
+    margin: 3px;
+    width: 100%;
+    background-color: #494949;
+    z-index: 10;
+    font-family: 'playfair_displayregular';
+    font-size: 70px;
+}
+
+p6{
+    position: fixed;
+    right: 100px;
+    top: 70px;
+}
+
 #header {
     padding:28px;
     border: 1px black solid;
